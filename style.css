@@ -17,7 +17,7 @@ body {
 header {
   display: flex;
   padding: 32px, 80px;
-  height: 96px;
+  /* height: 96px; */
   justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@ nav {
 
 .nav_btn2 {
   background-color: orange;
-  color:orange;
+  color: orange;
   display: flex;
   padding: 28px 32px;
   align-items: center;
@@ -61,8 +61,9 @@ h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  line-height: 123.958%;
+  line-height: 124%;
   background-color: transparent;
+  text-align: center;
 }
 
 h2 {
@@ -93,6 +94,16 @@ h4 {
   font-weight: 400;
   line-height: 124%; /* 79.333px */
   background-color: transparent;
+}
+
+p {
+  color: black;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 32px */
+  text-align: center;
 }
 
 button {
@@ -127,26 +138,68 @@ button {
   font-weight: 600;
 }
 
-.p-small {
-  color: var(--Gray-600, #475467);
-  font-family: red hat display;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 150% */
-}
-
-.p-large {
-  color: var(--Gray-600, #475467);
-  font-family: red hat display;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 150% */
-}
-
 /* Hero Section */
 
 .hero_section {
-    background-image: url (Images/Rectangle 1.png);
+  width: 1440px;
+  padding: 96px 80px;
+  background-image: url (Images/Rectangle 1png);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
+
+.hero_text {
+  display: flex;
+  width: 807px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero_btn {
+  background: var(--Primary-Color, #d4902a);
+  border-color: transparent;
+  display: flex;
+  padding: 16px 32px;
+  align-items: center;
+}
+
+/* About Section */
+
+.about_section {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  padding: 96px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.about_text {
+  max-width: 960px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Image Holder */
+
+.image_holder {
+  display: flex;
+  align-items: flex-start;
+}
+
+.material {
+  height: 294.363px;
+  flex: 1 0 0;
+  width: 288px;
+}
+
+/* Our Services */
+
