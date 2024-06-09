@@ -291,6 +291,7 @@ img {
   justify-content: space-between;
   align-items: flex-start;
   flex: 1 0 0;
+  align-self: stretch;
 }
 
 .footer_links {
@@ -329,6 +330,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-self: stretch;
   gap: 32px;
 }
 
@@ -344,4 +346,11 @@ img {
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+}
+
+.social_icons {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
