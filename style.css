@@ -286,6 +286,7 @@ img {
 }
 
 .info_office {
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -293,19 +294,38 @@ img {
 }
 
 .footer_links {
+  background-color: transparent;
   display: flex;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
 }
+.info_holder {
+  background-color: transparent;
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.office {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
 
 .office_holder {
+  background-color: transparent;
   display: flex;
   align-items: flex-start;
   gap: 16px;
 }
 
 .line_links {
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -319,6 +339,7 @@ img {
 }
 
 .social_wrapper {
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
