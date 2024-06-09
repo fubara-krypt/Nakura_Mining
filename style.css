@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  color: var(--Gray-900, #101828);
+  color: black;
   font-family: Red hat display;
   font-size: 32pxpx;
   font-style: normal;
@@ -104,6 +104,7 @@ p {
   font-weight: 400;
   line-height: 200%; /* 32px */
   text-align: center;
+  background-color: transparent;
 }
 
 button {
@@ -121,29 +122,15 @@ button {
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
-.primary_button {
-  font-family: Red hat display;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  font-family: satoshi;
-  font-weight: 600;
+img {
+  background-color: transparent;
 }
-
-.secondary_button {
-  font-family: red hat display;
-  background-color: #f4f4f4;
-  font-family: satoshi;
-  cursor: pointer;
-  font-weight: 600;
-}
-
 /* Hero Section */
 
 .hero_section {
-  width: 1440px;
+  background: url ("Images/Rectangle 1.png") repeat 0 0;
+  width: 100%;
   padding: 96px 80px;
-  background-image: url (Images/Rectangle 1png);
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -203,3 +190,61 @@ button {
 
 /* Our Services */
 
+.services_section {
+  display: flex;
+  width: 100%;
+  height: 702px;
+  padding: 96px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.service_text {
+  display: flex;
+  width: 768px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.services_step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  column-gap: 32px;
+  align-self: stretch;
+}
+
+.step_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+
+/* Value Section */
+
+.value_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 57px 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.value_holder {
+  display: flex;
+  width: 405.333px;
+  padding: 24px 24px 40px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  background: var(--Warning-50, #FFFAEB);
+}
