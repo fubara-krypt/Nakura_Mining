@@ -367,3 +367,12 @@ img {
   gap: 20px;
   flex: 1 0 0;
   }
+
+  /* ABOUT PAGE */
+
+  .about_step {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 96px;
+  }
