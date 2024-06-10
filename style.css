@@ -357,3 +357,13 @@ img {
   align-items: center;
   gap: 24px;
 }
+
+/* CONTACT PAGE */
+
+.contact_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1 0 0;
+  }
