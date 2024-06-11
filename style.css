@@ -272,9 +272,7 @@ img {
 }
 
 .material {
-  height: 294.363px;
   flex: 1 0 0;
-  width: 288px;
 }
 
 /* Our Services */
@@ -327,7 +325,7 @@ img {
 
 .value_holder {
   display: flex;
-  width: 405.333px;
+  max-width: 405.333px;
   padding: 24px 24px 40px 24px;
   flex-direction: column;
   align-items: flex-start;
@@ -563,6 +561,9 @@ img {
     width: unset;
   }
 
+  .services_section {
+    padding: 56px 24px;
+  }
   .services_step {
     flex-direction: column;
   }
@@ -573,6 +574,7 @@ img {
   }
 
   h1 {
+    text-align: center;
     font-size: 40px;
   }
 
@@ -623,5 +625,13 @@ img {
   .social_wrapper {
     gap: 24px;
     flex-direction: column;
+  }
+
+  .image_holder {
+    display: none;
+  }
+
+  .material {
+    display: none;
   }
 }
