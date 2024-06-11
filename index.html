@@ -17,22 +17,45 @@
 
 <body>
     <header>
-        <nav>
-            <img class="logo" src="Images/Screenshot_30-5-2024_91157_ 2.png">
-
-            <div class="nav_links">
-                <div class="nav_btn">
-                    <h4>Home</h4>
-                </div>
-                <div class="nav_btn">
-                    <h4>About Us</h4>
-                </div>
-                <div class="nav_btn2">
-                    <h4>Contact Us</h4>
-                </div>
+        <div class="navbar">
+            <div class="logo"><a href="">Fubara Dickson</a></div>
+            <ul class="links">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About Us</a></li>
+                <li><a href="Services">Services</a></li>
+            </ul>
+            <a href="#" class="action_btn">Contact Us</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </nav>
+            </div>
+
+            <div class="dropdown_menu">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About Us</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="#" class="action_btn">Contact Us</a></li>
+            </div>
+
+        </div>
     </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+            
+        }
+
+    </script>
 
     <!-- HERO SECTION -->
 
