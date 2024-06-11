@@ -314,7 +314,7 @@ img {
   padding: 96px 80px;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
+  gap: 80px;
 }
 
 .service_text {
@@ -491,6 +491,14 @@ img {
   align-items: left;
   gap: 20px;
   flex: 1 0 0;
+}
+
+.name_position {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
 }
 
 .about_step {
