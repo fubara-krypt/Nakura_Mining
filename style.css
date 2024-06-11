@@ -48,6 +48,7 @@ nav {
   transition: scale 0.2 ease;
 }
 
+
 .nav_links {
   display: flex;
   align-items: flex-start;
@@ -131,7 +132,7 @@ img {
 /* Hero Section */
 
 .hero_section {
-  background: url ("Images/Rectangle 1.png") repeat 0 0;
+  background-image: url("Images/Rectangle 1.png");
   width: 100%;
   padding: 96px 80px;
   display: flex;
@@ -142,6 +143,7 @@ img {
 }
 
 .hero_text {
+  background: transparent;
   display: flex;
   width: 807px;
   flex-direction: column;
