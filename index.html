@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nakura Mining</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="script.js">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <!-- NAV SECTION -->
@@ -18,24 +18,23 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo"><a href="">Fubara Dickson</a></div>
+            <div class="logo"><a href=""><img src="Images/Screenshot_30-5-2024_91157_ 2.png" alt="logo"></a></div>
             <ul class="links">
-                <li><a href="Home">Home</a></li>
-                <li><a href="About">About Us</a></li>
-                <li><a href="Services">Services</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <a href="#" class="action_btn">Contact Us</a>
+            <!-- <a href="#" class="action_btn">Contact Us</a> -->
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
-            </div>
+        </div>
 
-            <div class="dropdown_menu">
-                <li><a href="Home">Home</a></li>
-                <li><a href="About">About Us</a></li>
-                <li><a href="Services">Services</a></li>
-                <li><a href="#" class="action_btn">Contact Us</a></li>
-            </div>
+        <div class="dropdown_menu">
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About Us</a></li>
+            <li><a href="Services">Services</a></li>
+        </div>
 
         </div>
     </header>
@@ -50,9 +49,9 @@
             const isOpen = dropDownMenu.classList.contains('open')
 
             toggleBtnIcon.classList = isOpen
-            ? 'fa-solid fa-xmark'
-            : 'fa-solid fa-bars'
-            
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+
         }
 
     </script>
@@ -79,7 +78,7 @@
     <section>
         <div class="about_section">
             <div class="about_text">
-                <h1>Who we are</h1> 
+                <h1>Who we are</h1>
                 <p>We are Nakura Mining Synergy Limited, we specialize in the extraction and processing of a diverse
                     range of solid minerals, including lithium ore, ilmenite ore (titanium), iron ore, feldspar,
                     dolomite, tin ore, tantalite ore, columbite ore, copper ore, coltan, and coal. With a commitment to
