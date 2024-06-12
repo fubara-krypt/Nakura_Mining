@@ -226,7 +226,7 @@ img {
 /* Hero Section */
 
 .hero_section {
-  background-image: url("Images/Rectangle 1.png") no;
+  background-image: url("Images/Rectangle 1.png");
   width: 100%;
   padding: 96px 80px;
   display: flex;
