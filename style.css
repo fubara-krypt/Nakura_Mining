@@ -146,8 +146,13 @@ h1 {
   text-align: left;
 }
 
-.orange_text {
+.orange_text_left {
   color: #d4902a;
+}
+
+.orange_text_center {
+  color: #d4902a;
+  text-align: center;
 }
 
 h2 {
