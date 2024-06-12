@@ -141,6 +141,11 @@ h1 {
   text-align: center;
 }
 
+.black_text_left {
+  color: black;
+  text-align: left;
+}
+
 .orange_text {
   color: #d4902a;
 }
@@ -353,6 +358,7 @@ img {
 }
 
 .testimonial_image {
+  
   width: 100%;
 }
 
