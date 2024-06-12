@@ -648,6 +648,11 @@ img {
     padding: 48px 24px 48px 24px;
   }
 
+
+  .services_step {
+    gap: 32px;
+  }
+
   .about_section {
     padding: 48px 24px 48px 24px;
   }
