@@ -502,6 +502,10 @@ img {
   align-self: stretch;
 }
 
+.metric_image {
+  max-width: 592px;
+}
+
 .metric_text_wrapper {
   display: flex;
   flex-direction: column;
@@ -652,6 +656,10 @@ img {
     padding: 48px 24px 48px 24px;
   }
 
+  .about_step {
+    flex-direction: column;
+  }
+
   .testimonial_section {
     flex-direction: column;
     padding: 48px 24px 48px 24px;
@@ -766,6 +774,10 @@ img {
 
   .about_section {
     padding: 48px 24px 48px 24px;
+  }
+
+  .about_step {
+    flex-direction: column;
   }
 
   .testimonial_section {
