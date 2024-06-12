@@ -557,12 +557,112 @@ img {
     display: block;
   }
 
+  .services_section {
+    padding: 56px 24px;
+  }
   .services_step {
     flex-direction: column;
   }
-
+  
   .testimonial_wrapper {
+    gap: 32px;
     flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .quote_wrapper {
+    align-items: center;
+  }
+
+  .info_holder {
+    align-items: center;
+  }
+  
+  .office_holder {
+    align-items: center;
+  }
+  
+  .white_text_left {
+    text-align: center;
+  }
+
+  .country_flag {
+    display: none;
+  }
+
+  .footer_links {
+    align-self: center;
+  }
+
+  .office {
+    align-items: center;
+  }
+
+  .info_office {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+  }
+
+  .social_wrapper {
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .image_holder {
+    display: none;
+  }
+
+  .material {
+    display: none;
+  }
+
+  .hero_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .services_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+
+  .services_step {
+    gap: 32px;
+  }
+
+  .about_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .testimonial_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .footer_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .contact_holder {
+  flex-direction: column;
+  align-items: center;
   }
 }
 
