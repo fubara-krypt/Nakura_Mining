@@ -470,6 +470,13 @@ img {
   flex: 1 0 0;
 }
 
+.contact_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 /* ABOUT PAGE */
 
 .team_holder {
@@ -567,7 +574,7 @@ img {
   .services_step {
     flex-direction: column;
   }
-  
+
   .testimonial_wrapper {
     gap: 32px;
     flex-direction: column;
@@ -598,11 +605,11 @@ img {
   .info_holder {
     align-items: center;
   }
-  
+
   .office_holder {
     align-items: center;
   }
-  
+
   .white_text_left {
     text-align: center;
   }
@@ -623,7 +630,6 @@ img {
     flex-direction: column;
     gap: 32px;
     align-items: center;
-
   }
 
   .social_wrapper {
@@ -647,7 +653,6 @@ img {
     padding: 48px 24px 48px 24px;
   }
 
-
   .services_step {
     gap: 32px;
   }
@@ -670,8 +675,8 @@ img {
   }
 
   .contact_holder {
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -687,7 +692,7 @@ img {
   .services_step {
     flex-direction: column;
   }
-  
+
   .testimonial_wrapper {
     gap: 32px;
     flex-direction: column;
@@ -718,11 +723,11 @@ img {
   .info_holder {
     align-items: center;
   }
-  
+
   .office_holder {
     align-items: center;
   }
-  
+
   .white_text_left {
     text-align: center;
   }
@@ -743,7 +748,6 @@ img {
     flex-direction: column;
     gap: 32px;
     align-items: center;
-
   }
 
   .social_wrapper {
@@ -767,7 +771,6 @@ img {
     padding: 48px 24px 48px 24px;
   }
 
-
   .services_step {
     gap: 32px;
   }
@@ -789,7 +792,7 @@ img {
   }
 
   .contact_holder {
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
