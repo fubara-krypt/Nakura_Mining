@@ -302,7 +302,7 @@ img {
 .services_step {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   align-content: space-between;
   column-gap: 32px;
   align-self: stretch;
@@ -358,7 +358,7 @@ img {
 }
 
 .testimonial_image {
-  
+
   width: 100%;
 }
 
@@ -669,5 +669,10 @@ img {
 
   .footer_section {
     padding: 48px 24px 48px 24px;
+  }
+
+  .contact_holder {
+  flex-direction: column;
+  align-items: center;
   }
 }
