@@ -503,7 +503,7 @@ img {
 .about_step {
   display: flex;
   width: 100%;
-  align-items: center;
+  /* align-items: center; */
   gap: 96px;
 }
 
@@ -798,6 +798,10 @@ img {
 
   .contact_holder {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .metric_holder {
     align-items: center;
   }
 }
