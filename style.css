@@ -352,7 +352,7 @@ img {
 
 .testimonial_wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 128px;
   align-self: stretch;
 }
@@ -653,6 +653,7 @@ img {
   }
 
   .testimonial_section {
+    flex-direction: column;
     padding: 48px 24px 48px 24px;
   }
 
