@@ -358,8 +358,8 @@ img {
 }
 
 .testimonial_image {
-
   width: 100%;
+  max-width: 328px;
 }
 
 .stars {
