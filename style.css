@@ -91,14 +91,14 @@ header {
   height: 0;
   width: 300px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
+  /* backdrop-filter: blur(15px); */
   border-radius: 10px;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .dropdown_menu.open {
-  height: 240px;
+  height: 140px;
 }
 
 .dropdown_menu li {
