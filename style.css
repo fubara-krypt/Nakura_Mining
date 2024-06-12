@@ -503,7 +503,6 @@ img {
 .about_step {
   display: flex;
   width: 100%;
-  /* align-items: center; */
   gap: 96px;
 }
 
@@ -548,7 +547,8 @@ img {
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
-  width: 264px;
+  max-width: 264px;
+  width: 100%;
 }
 
 .nakura_image {
@@ -667,6 +667,7 @@ img {
   }
 
   .about_step {
+    gap: 32px;
     flex-direction: column;
   }
 
@@ -804,4 +805,38 @@ img {
   .metric_holder {
     align-items: center;
   }
+
+  .about_step {
+  display: flex;
+  width: 100%;
+  gap: 96px;
+}
+
+.metric_one {
+  display: flex;
+  align-items: center;
+}
+
+.metric_text_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.metric_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.metric_holder {
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.metric_text_holder {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 }
