@@ -352,6 +352,10 @@ img {
   align-self: stretch;
 }
 
+.testimonial_image {
+  width: 100%;
+}
+
 .stars {
   display: flex;
   align-items: center;
@@ -395,10 +399,11 @@ img {
   gap: 32px;
   align-self: stretch;
 }
+
 .info_holder {
   background-color: transparent;
   display: flex;
-  width: 400px;
+  max-width: 400px;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
@@ -633,5 +638,25 @@ img {
 
   .material {
     display: none;
+  }
+
+  .hero_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .services_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .about_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .testimonial_section {
+    padding: 48px 24px 48px 24px;
+  }
+
+  .footer_section {
+    padding: 48px 24px 48px 24px;
   }
 }
